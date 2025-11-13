@@ -103,7 +103,7 @@ cd iac
 terraform destroy
 ```
 
-## 🧭 7️⃣ Explicación del Flujo de Datos
+## 7️⃣ Explicación del Flujo de Datos
 ```mermaid
 flowchart TD
     A[📤 CSV en S3 RAW] --> B[🔍 Glue Crawler - Detecta Schema - Opcional para revisar la data origen]
