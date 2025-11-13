@@ -1,0 +1,26 @@
+customer_id,name,email,created_at,country,amount
+1,John Doe,john@example.com,2024-05-01,US,120.5
+2,Ana Ruiz,ana@example.com,2024-05-01,PE,95.0
+3,Luis Perez,luis@example.com,2024-05-01,CL,250.3
+4,Maria López,maria@example.com,2024-05-01,PE,80.0
+5,Carla Fernández,carlaf@example.com,2024-05-01,AR,145.2
+6,Pedro Gómez,pedrog@example.com,2024-05-01,MX,310.0
+7,Sofía Torres,sofiat@example.com,2024-05-01,CO,200.8
+8,James Smith,james.smith@example.com,2024-05-01,US,175.9
+9,Lucía Ramos,lucia.ramos@example.com,2024-05-01,PE,89.5
+10,Andrés Castillo,andres.castillo@example.com,2024-05-01,CL,215.4
+11,Isabella Cruz,isac@example.com,2024-05-09,CO,142.0
+12,Daniel Torres,danielt@example.com,2024-05-09,MX,375.6
+13,Mariana Soto,mariana.soto@example.com,2024-05-09,AR,189.3
+14,Roberto Silva,robertos@example.com,2024-05-09,PE,95.7
+15,Emily Johnson,emily.j@example.com,2024-05-09,US,220.4
+16,David Romero,davidr@example.com,2024-05-09,CL,340.1
+17,Natalia Vargas,nvargas@example.com,2024-05-13,CO,120.0
+18,Miguel Torres,miguelt@example.com,2024-05-13,PE,410.2
+19,Patricia León,patricial@example.com,2024-05-13,MX,190.8
+20,George Brown,george.b@example.com,2024-05-13,US,305.9
+21,Andrea Peña,andrea.pena@example.com,2024-05-13,PE,100.0
+22,Raúl Sánchez,rauls@example.com,2024-05-13,AR,280.7
+23,Lorena Díaz,lorena.diaz@example.com,2024-05-13,CL,350.9
+24,Tomás Herrera,tomas.h@example.com,2024-05-13,CO,195.6
+25,Camila Navarro,camila.n@example.com,2024-05-13,PE,245.0
