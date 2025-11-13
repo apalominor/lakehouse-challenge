@@ -95,8 +95,24 @@ terraform init
 ```
 
 ## 5️⃣ Ejecución de la Prueba
-Para la preparación de la prueba, se utilizará la Consola AWS para facilidad de captura de evidencias:
+Para la preparación de la prueba, se utilizará la Consola AWS para facilidad de captura de evidencias. Considerar que los nombres de los elementos podría variar basándose en los parámetros ingresados **Terraform**.
 
+Una vez terminada la ejecución de la infraestructura, ingresar a la consola AWS, ir al servicio buckets y subir el archivo de muestra CSV a la ruta: `s3://lakehouse-challenge-dev-raw/data/`:
+<br></br>
+<img width="1642" height="582" alt="image" src="https://github.com/user-attachments/assets/f5d675e4-8b36-4436-af44-e5d7c17101a4" />
+<br></br>
+**OPCIONAL:** Ir al servicio `AWS Glue > Crawlers` y ejecutar el crawler de exploración de datos iniciales `lakehouse-challenge-dev-raw-crawler`:
+<br></br>
+<img width="1538" height="608" alt="image" src="https://github.com/user-attachments/assets/1e549b46-236c-4f04-a3d7-68d1594aa0f1" />
+<br></br>
+En el mismo servicio `AWS Glue`, ir a `ETL jobs` y ejecutar el job de transformación `lakehouse-challenge-dev-job`:
+<br></br>
+<img width="1267" height="346" alt="image" src="https://github.com/user-attachments/assets/18a627a4-efba-407e-8f00-82f60e231d82" />
+<br></br>
+Una vez culminado, ir al servicio `Athena`, seleccionar el `workgroup` creado `lakehouse-challenge-dev-wg`, y procesar la consulta. En caso se haya ejecutado el paso opcional, se podrá ver la tabla asociada al archivo original CSV:
+<br></br>
+<img width="2527" height="947" alt="image" src="https://github.com/user-attachments/assets/8b804838-dee3-4657-964b-a88698c96f3c" />
+<br></br>
 ## 6️⃣ Limpieza del Entorno
 ```bash
 cd iac
